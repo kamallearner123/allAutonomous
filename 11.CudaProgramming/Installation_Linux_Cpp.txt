@@ -1,0 +1,4 @@
+
+1) Install nvcc:
+sudo apt install nvidia-cuda-toolkit
+``

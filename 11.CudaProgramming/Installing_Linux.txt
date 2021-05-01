@@ -1,0 +1,6 @@
+
+1) Install CUDA:
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&=Ubuntu&target_version=20.04&target_type=deb_local
+
+2)
+
