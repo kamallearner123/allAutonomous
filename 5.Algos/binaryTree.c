@@ -79,6 +79,9 @@ Node **find(Node **root, int data)
 
 }
 
+
+
+
 void delete() 
 {
 	Node **loc, *del_node, *tmp;
