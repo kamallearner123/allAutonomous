@@ -1,0 +1,27 @@
+
+Sigital Signature and its Importance
+26th May 2021
+
+
+Speaker: Balaji Rajendran
+
+
+Cyber Physical Systems: 28th Map
+
+Electronic World:
+	
+- Tapping is an issue: Breach of confidentiality: Sniffing nw
+- Tampering (Breach of integrity)
+- Breach of Authenticity
+- Repudiation
+
+
+
+PKI Echo system:
+1) Tech
+2) Policy
+3) Stds
+4) Implementation
+
+
+
