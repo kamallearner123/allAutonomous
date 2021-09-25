@@ -1,0 +1,3 @@
+str1 = "i once made a remark about the hidden books of the bible (merly by a fluke) it kept people looking so hard for the dacts and for others it was a revelation some were in a jam especially since the name of the books were not capitalized but the truth finally struck home to numbers of readers to others it was a real job we want it to be a most fascinating few moments for you yes there will be some really easy ones to spot others may require judges to help them i will quickly admit it usually takes a minister to find one of them and there will be loud lamentations when it is found a little lady says she brews a cup of tea so she can concentrate better see how well you can compete relax now there really are sixteen names of books in this story"
+
+str
