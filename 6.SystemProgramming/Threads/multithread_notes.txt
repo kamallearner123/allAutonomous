@@ -1,0 +1,33 @@
+Why do we needs threads?
+OpenRAN:
+
+- 32 Cores: 100GB 
+-->             --->
+-->     Server  --->
+-->             --->
+-->             --->
+
+run.exe (1 core)
+
+Sol: running on multiple threads
+
+Job1, job2, job3, job20
+
+
+Process -> Threads
+
+uses:
+1) CPUs utilization
+2) Concurrency (Parallel execution)
+
+job1->job2->job3->  .... 1000
+
+Thread1, Thread2, Thread3
+
+
+
+
+
+Process1 , Process2: IPC (pipes, MsgQ, Shared mem, Sockets)
+
+

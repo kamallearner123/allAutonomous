@@ -1,0 +1,7 @@
+
+
+
+CPU1 (T1)-> Register -> L1(a=100) -> L2 -> L3 -> RAM
+CPU2 (T2)-> Register -> L2(a=200) -> L2 (a=200) -> L3 (a=300) -> RAM(a=300)
+
+
