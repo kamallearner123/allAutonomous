@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include <time.h>
 
 #include "math.h"
 
 int main(int argc, char **argv)
 {
-    int num =10;
+    int num =10, seq_num;
+    time_t t1, init_time;
 
     printf("Current user : %s\n", getenv("USER"));
     
@@ -19,8 +20,15 @@ int main(int argc, char **argv)
 
     printf("Fib num = %d\n", gen_fib_num(num));
 
+    (void)time(&init_time);
+
     while(num--) {
-        printf("Fib num = %d\n", gen_fib_num(-1));
+        printf("Time in seconds = %lu\n", time(&t1));
+        seq_num = gen_fib_num(-1);
+        printf("Fib num = %d\n", seq_num);
+        if (0 > seq_num)
+            break;
+        sleep(seq_num);
     }
     return 0;
 }
