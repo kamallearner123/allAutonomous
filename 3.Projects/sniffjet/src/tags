@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+gen_fib_num	math.c	/^int gen_fib_num(int num) $/;"	f
+get_token	hash_gen.c	/^char *get_token(const char *comb, int key_len) $/;"	f
+id_ind	hash_gen.c	/^static int sps_index,  id_ind, sp_max, max_key_len;$/;"	v	file:
+ids	hash_gen.c	/^static char ids[126];$/;"	v	file:
+key	hash_gen.c	/^char *key =NULL;$/;"	v
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+max_key_len	hash_gen.c	/^static int sps_index,  id_ind, sp_max, max_key_len;$/;"	v	file:
+seq	hash_gen.c	/^char *seq()$/;"	f
+sp_max	hash_gen.c	/^static int sps_index,  id_ind, sp_max, max_key_len;$/;"	v	file:
+sps	hash_gen.c	/^int *sps;$/;"	v
+sps_index	hash_gen.c	/^static int sps_index,  id_ind, sp_max, max_key_len;$/;"	v	file:
+sps_mark	hash_gen.c	/^int sps_mark;$/;"	v

@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <unistd.h>
 
 #include "math.h"
+#include "hash_gen.h"
 
 int main(int argc, char **argv)
 {
@@ -28,7 +30,21 @@ int main(int argc, char **argv)
         printf("Fib num = %d\n", seq_num);
         if (0 > seq_num)
             break;
-        sleep(seq_num);
+        //sleep(seq_num);
     }
+
+
+
+    /*Testing hash generator */
+    printf("Key 1 = %s\n",get_token("ab", 3));
+
+    int index = 1;
+    char *key;
+    while(key = get_token(NULL,0))
+    {
+        printf("Key %d = %s\n", index, key);
+        index++;
+    }
+
     return 0;
 }
