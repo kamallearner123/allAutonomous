@@ -1,0 +1,8 @@
+[Unit]
+After=network.service
+
+[Service]
+ExecStart=/bin/test_code.py
+
+[Install]
+WantedBy=default.target
